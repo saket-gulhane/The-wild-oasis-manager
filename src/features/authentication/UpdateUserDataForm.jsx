@@ -25,13 +25,7 @@ function UpdateUserDataForm() {
   const [fullName, setFullName] = useState(currentFullName);
   const [avatar, setAvatar] = useState(null);
 
-  if (
-    isLoading ||
-    isUpdating ||
-    email === undefined ||
-    currentFullName === undefined
-  )
-    return <Spinner />;
+  if (isLoading || isUpdating || email === undefined) return <Spinner />;
 
   function handleSubmit(e) {
     e.preventDefault();
