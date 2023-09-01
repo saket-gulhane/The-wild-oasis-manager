@@ -6,5 +6,5 @@
 
 - React js
 - React Query
-- Supabase
+- Supabase: Real time PostgreSQL cloud storage.
 - Styled Components
